@@ -10,5 +10,8 @@ journalctl -p warning #listar warning and above, ou seja erros e warning alterna
 
 #Listar Serviços no system-d, enable
 systemctl list-units --type=service --state=active #Lista as units ativas, do tipo serviço.
-systemctl cat kubelet.service
+systemctl cat kubelet.service #ver a configuração de uma unit
+
 #Listar repositórios ativos no sistema.
+yum repolist enabled
+yum repolist disabled

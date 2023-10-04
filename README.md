@@ -1,2 +1,2 @@
 # Linux #
-Dicas sobre as principais distribuições linux que uso.
+Dicas sobre as principais distribuições linux que uso, no cotidiano.
